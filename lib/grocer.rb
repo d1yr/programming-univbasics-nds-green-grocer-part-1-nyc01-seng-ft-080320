@@ -19,7 +19,7 @@ i = 0
 consolidate = []
 while i < cart.count do 
   item_name = cart[i][:item]
-  new_item = find_item_by_name_in_collection(item_name, new_item)
+  new_item = find_item_by_name_in_collection(item_name, consolidate)
   if new_item
     new_item[:count] += 1 
   else cart[i][:count] = 1 
