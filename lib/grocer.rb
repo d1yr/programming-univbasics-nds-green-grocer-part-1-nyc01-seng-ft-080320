@@ -27,4 +27,3 @@ hash = {}
   end
   hash
 end
-  
