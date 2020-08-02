@@ -23,6 +23,6 @@ while i < cart.count do
   if new_item
     new_item[:count] += 1 
   else cart[i][:count] = 1 
-    
+    result << cart[i]
   
 end
