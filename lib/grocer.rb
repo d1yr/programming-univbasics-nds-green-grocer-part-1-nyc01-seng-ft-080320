@@ -27,5 +27,7 @@ while i < cart.count do
   end
   i += 1 
 end
+new_item
+end
   
 end
