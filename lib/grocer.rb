@@ -23,11 +23,11 @@ while i < cart.count do
   if new_item
     new_item[:count] += 1 
   else cart[i][:count] = 1 
-    result << cart[i]
+    consolidate << cart[i]
   end
   i += 1 
 end
-new_item
+consolidate
 end
   
 end
