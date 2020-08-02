@@ -20,6 +20,6 @@ consolidate = []
 while i < cart.count do 
   item_name = cart[i][:item]
   new_item = find_item_by_name_in_collection(item_name, new_item)
-  
+  if new_item
   
 end
